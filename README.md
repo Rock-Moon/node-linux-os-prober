@@ -15,11 +15,10 @@ require('./lib/linux_version')(function(err, ret) {
 ```
 
 
-
 ### ERROR INFO
 
 * only sport linux os
-* just sport ```['Ubuntu', 'redhat', 'Debian', 'fedora']```
+* just sport ```['Ubuntu', 'redhat', 'CentOS', 'Debian', 'fedora']```
 
 
 
