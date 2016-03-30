@@ -1,4 +1,4 @@
-require('./lib/linux_version')(function(err, ret) {
+require('./lib/os-prober')(function(err, ret) {
     console.log(err);
     console.log(ret);
 })

@@ -7,9 +7,9 @@
 ## Usage
 
 ```sh
-require('./lib/linux_version')(function(err, ret) {
+require('./lib/os-prober')(function(err, version) {
     console.log(err);
-    console.log(ret);
+    console.log(version);
 })
 
 ```
